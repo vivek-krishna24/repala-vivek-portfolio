@@ -1,9 +1,19 @@
 export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      {/* Web pattern */}
+
+      {/* Spider-Man background image */}
+      <div
+        className="absolute inset-0 bg-center bg-no-repeat bg-cover opacity-40 blur-sm"
+        style={{
+          backgroundImage: "url('/spiderman.png')",
+        }}
+      />
+
+      {/* Web pattern overlay */}
       <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_1px_1px,white_1px,transparent_0)] [background-size:24px_24px]" />
 
+      {/* Text content */}
       <div className="relative z-10 text-center max-w-2xl px-6">
         <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight">
           Repala Vivek Krishna
@@ -34,6 +44,13 @@ export default function Hero() {
           >
             LinkedIn
           </a>
+           <a
+              href="/Vivek_Krishna_Repala_Resume.pdf"
+              target="_blank"
+              className="px-7 py-3 rounded-xl bg-red-600 hover:bg-red-500 hover:-translate-y-1 hover:shadow-2xl transition-all duration-200"
+            >
+              Download Resume
+            </a>
         </div>
       </div>
     </section>

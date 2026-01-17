@@ -3,6 +3,8 @@ import Projects from "../components/Projects";
 import Experience from "../components/Experience";
 import SmoothScroll from "../components/SmoothScroll";
 import WebScene from "../components/WebScene";
+import Contact from "../components/Contact";
+
 
 export default function Home() {
   return (
@@ -16,6 +18,7 @@ export default function Home() {
           <Hero />
           <Projects />
           <Experience />
+          <Contact />
         </main>
       </>
     </SmoothScroll>
