@@ -75,6 +75,7 @@ function WebNetwork({ scroll }: { scroll: number }) {
         />
       </points>
 
+
       {/* Web lines */}
       {lines.map((pair, i) => (
         <Line
