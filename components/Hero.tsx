@@ -24,8 +24,7 @@ export default function Hero() {
         </h2>
 
         <p className="mt-6 text-lg text-blue-100 leading-relaxed">
-          I build machine learning and analytics systems with a strong focus on
-          clean data pipelines, computer vision, and decision-driven insights.
+  I focus on building end-to-end machine learning systems, from clean data pipelines to production-ready models, with an emphasis on computer vision and scalable analytics
         </p>
 
         <div className="mt-10 flex justify-center gap-5">
