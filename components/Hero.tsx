@@ -16,7 +16,7 @@ export default function Hero() {
       {/* Text content */}
       <div className="relative z-10 text-center max-w-2xl px-6">
         <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight">
-          Repala Vivek Krishna
+          Vivek Krishna Repala
         </h1>
 
         <h2 className="mt-4 text-xl md:text-2xl font-medium text-red-200">
